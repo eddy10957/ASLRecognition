@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var overlayPoints: [CGPoint] = []
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack{
+            CameraView {
+                overlayPoints = $0
+            }
+            .overlay(
+                FingersOverlay(with: overlayPoints)
+                    .foregroundColor(.red)
+            )
+            .edgesIgnoringSafeArea(.all)
         }
-        .padding()
     }
 }
 
