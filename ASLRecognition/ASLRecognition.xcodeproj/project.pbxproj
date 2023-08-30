@@ -12,7 +12,6 @@
 		AA212AAF2A4034650068787C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA212AAE2A4034650068787C /* Assets.xcassets */; };
 		AA212AB22A4034650068787C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA212AB12A4034650068787C /* Preview Assets.xcassets */; };
 		AA9A037B2A9E623000CCB250 /* HostedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9A037A2A9E623000CCB250 /* HostedViewController.swift */; };
-		AA9A037D2A9E62FF00CCB250 /* HandPoseClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9A037C2A9E62FF00CCB250 /* HandPoseClassifier.swift */; };
 		AA9A037F2A9F3ED000CCB250 /* ASL Model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AA9A037E2A9F3ED000CCB250 /* ASL Model.mlmodel */; };
 		AA9A03812A9F43DE00CCB250 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9A03802A9F43DE00CCB250 /* ARViewController.swift */; };
 		AA9A03832A9F47F700CCB250 /* PredictionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9A03822A9F47F700CCB250 /* PredictionObject.swift */; };
@@ -25,7 +24,6 @@
 		AA212AAE2A4034650068787C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA212AB12A4034650068787C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA9A037A2A9E623000CCB250 /* HostedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostedViewController.swift; sourceTree = "<group>"; };
-		AA9A037C2A9E62FF00CCB250 /* HandPoseClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandPoseClassifier.swift; sourceTree = "<group>"; };
 		AA9A037E2A9F3ED000CCB250 /* ASL Model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ASL Model.mlmodel"; sourceTree = "<group>"; };
 		AA9A03802A9F43DE00CCB250 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		AA9A03822A9F47F700CCB250 /* PredictionObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionObject.swift; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 				AA212AAA2A4034640068787C /* ASLRecognitionApp.swift */,
 				AA212AAC2A4034640068787C /* ContentView.swift */,
 				AA9A037A2A9E623000CCB250 /* HostedViewController.swift */,
-				AA9A037C2A9E62FF00CCB250 /* HandPoseClassifier.swift */,
 				AA9A03802A9F43DE00CCB250 /* ARViewController.swift */,
 				AA9A03822A9F47F700CCB250 /* PredictionObject.swift */,
 				AA212AAE2A4034650068787C /* Assets.xcassets */,
@@ -156,7 +153,6 @@
 				AA9A037F2A9F3ED000CCB250 /* ASL Model.mlmodel in Sources */,
 				AA212AAD2A4034640068787C /* ContentView.swift in Sources */,
 				AA9A03812A9F43DE00CCB250 /* ARViewController.swift in Sources */,
-				AA9A037D2A9E62FF00CCB250 /* HandPoseClassifier.swift in Sources */,
 				AA9A03832A9F47F700CCB250 /* PredictionObject.swift in Sources */,
 				AA212AAB2A4034640068787C /* ASLRecognitionApp.swift in Sources */,
 			);
