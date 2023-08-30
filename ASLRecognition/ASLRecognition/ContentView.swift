@@ -8,18 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var overlayPoints: [CGPoint] = []
+    @StateObject var prediction = PredictionObject()
     
     var body: some View {
-        ZStack{
-            CameraView {
-                overlayPoints = $0
+        VStack{
+            HostedViewController(predictionObject: prediction)
+                .ignoresSafeArea()
+                
+            ZStack{
+                Rectangle()
+                    .frame(height: 200)
+                    .foregroundColor(.black)
+                Text("Prediction: \(prediction.label), Confidence: \(String(format: "%.2f", prediction.confidence))")
+                    .foregroundColor(.white)
             }
-            .overlay(
-                FingersOverlay(with: overlayPoints)
-                    .foregroundColor(.red)
-            )
-            .edgesIgnoringSafeArea(.all)
         }
     }
 }
