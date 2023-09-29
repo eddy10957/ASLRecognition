@@ -10,7 +10,6 @@ import UIKit
 import CoreML
 import ARKit
 import Vision
-import SceneKit
 
 class ARViewController: UIViewController,ARSessionDelegate{
     
@@ -53,7 +52,7 @@ class ARViewController: UIViewController,ARSessionDelegate{
     
     func session(_ session: ARSession, didUpdate frame: ARFrame) {
         
-        var pixelBuffer = frame.capturedImage
+        let pixelBuffer = frame.capturedImage
         DispatchQueue.global(qos: .userInitiated).async { [self] in
             let handPoseRequest = VNDetectHumanHandPoseRequest()
             handPoseRequest.maximumHandCount = 1

@@ -5,11 +5,8 @@
 //  Created by Edoardo Troianiello on 29/08/23.
 //
 
-import Foundation
 import UIKit
 import SwiftUI
-import AVFoundation
-import Vision
 
 
 
