@@ -43,7 +43,6 @@ class ARViewController: UIViewController,ARSessionDelegate{
         
         
         let config = ARFaceTrackingConfiguration()
-        arScnView.transform = CGAffineTransform(scaleX: -1, y: 1)
         arScnView.session.delegate = self
         arScnView.session.run(config, options: [])
         
@@ -58,7 +57,7 @@ class ARViewController: UIViewController,ARSessionDelegate{
             handPoseRequest.maximumHandCount = 1
             handPoseRequest.revision = VNDetectHumanHandPoseRequestRevision1
             
-            let handler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer,orientation: .right , options: [:])
+            let handler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer,orientation: .leftMirrored, options: [:])
             do {
                 try handler.perform([handPoseRequest])
             } catch {
