@@ -1,5 +1,5 @@
 # ASL Recognition App
-
+![App Icon](https://github.com/eddy10957/ASLRecognition/blob/main/ASLRecognition/Assets/180.png)
 ## Overview
 
 This application, developed as part of a thesis project, focuses on the recognition of American Sign Language (ASL). It leverages various frameworks and libraries to achieve accurate hand pose recognition, contributing to a more inclusive communication experience.
@@ -25,3 +25,4 @@ The application follows the Model-View-Controller (MVC) design pattern for a mod
 ## Conclusion
 
 This ASL recognition app represents a fusion of cutting-edge technologies, making strides in communication accessibility by recognizing and interpreting American Sign Language gestures. The implementation showcases the seamless integration of machine learning, augmented reality, and user interface design to create a transformative tool for users fluent in ASL.
+![Screens](https://github.com/eddy10957/ASLRecognition/blob/main/ASLRecognition/Assets/Screens.png)
